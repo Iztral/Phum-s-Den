@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@font-face {font-family: CaviarDreams; src: url(CaviarDreams.ttf);}
+
+
+
+@media (min-width: 710px) {
+  .content_item {
+    max-width: calc(50% - 10px);
+  }
+}
+@media (min-width: 1070px) {
+  .content_item {
+    max-width: calc(33.33333% - 10px);
+  }
+}
+@media (min-width: 1080px) {
+  .content_item {
+    max-width: calc(25% - 10px);
+  }
+}
+
+html *{
+	font-family: CaviarDreams; 
+	color: #E8E3DD;
+	letter-spacing: 4px;
+	font-size: 100%;
+}
+body{
+	margin: 0px;
+}
+#page{
+	background-color: #161616; 
+	width: 100%; 
+	background-repeat: no-repeat;
+}
+
+#header{
+	text-align: center; 
+	align-content: center; 
+	width: 100%;
+	background-image: url(../img/korzonki.png); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+}
+
+
+#content{ 
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+#footer{align-content: center;}
+
+#logo{
+	align-content: center; 
+	width: 20%; 
+	margin:auto; 
+	padding: 20px 20px 0px 20px;}
+
+#logo_image{
+	width: 80%;
+}
+
+#den{
+	font-size: 4.6vh!important;
+}
+
+#art{
+	font-size: 1.4vh!important;
+}
+#title{
+	
+}
+
+#menu_bar{
+	width: 40%; 
+	margin-left: 30%;
+	margin-right: 30%; 
+	text-align: center;
+	padding-top: 20px;
+	font-size: 1.4vh!important;
+    }
+
+.menu_bar_link{
+    vertical-align: top;
+    display: inline;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px; 
+	margin-top: 10px;
+}	
+
+.content_item{
+	box-sizing: border-box;
+	flex: 1 0 350px;
+}
+
+.content_item_image{
+	width: 100%;
+}
+
+.content_item_text{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 90%!important;
+}
+
+h1,h2,h3,h4,h5,h6{margin: 0px; font-weight:normal;}
